@@ -1,6 +1,7 @@
 # NASA Image of the Day
 
-![App Screenshot](./res/drawable/nasa_image_of_day.jpeg)
+![App Screenshot](https://github.com/PUNEETKUMARMEHTA121/nasaimageofday/blob/master/app/src/main/res/drawable/loading_nasa_image_of_day.jpeg)
+![App Screenshot](https://github.com/PUNEETKUMARMEHTA121/nasaimageofday/blob/master/app/src/main/res/drawable/nasa_image_of_day.jpeg)
 
 ## Overview
 
