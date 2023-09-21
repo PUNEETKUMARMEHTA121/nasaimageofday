@@ -31,7 +31,7 @@ class ImageRepository(
 
     suspend fun saveImage(instance: ApiImageResponse) {
         db.getImageDao().deleteImage()
-//        db.getImageDao().insert(instance)
+        db.getImageDao().insert(instance)
     }
 
 }

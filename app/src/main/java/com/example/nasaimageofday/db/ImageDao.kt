@@ -7,9 +7,9 @@ import com.example.nasaimageofday.model.ApiImageResponse
 @Dao
 interface ImageDao {
 
-//    @Insert(onConflict = OnConflictStrategy.IGNORE)
-//    suspend fun insert(image: ApiImageResponse):Long
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insert(image: ApiImageResponse): Long
 
-    @Query("DELETE  FROM Image")
+    @Query("DELETE  FROM ApiImageResponse")
     fun deleteImage()
 }

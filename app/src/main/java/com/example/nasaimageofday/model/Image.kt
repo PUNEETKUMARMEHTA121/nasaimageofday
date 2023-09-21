@@ -5,10 +5,10 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
-@Entity(tableName = "Image")
+@Entity
 data class ApiImageResponse(
     @PrimaryKey(autoGenerate = true)
-    var id: Long = 0,
+    var id: Long = 0L,
 
     @SerializedName("date")
     var date: String?,
@@ -32,6 +32,6 @@ data class ApiImageResponse(
     var url: String?
 ) {
     companion object {
-        fun empty() = ApiImageResponse(0,null, null, null, null, null, null, null)
+        fun empty() = ApiImageResponse(0L, null, null, null, null, null, null, null)
     }
 }
