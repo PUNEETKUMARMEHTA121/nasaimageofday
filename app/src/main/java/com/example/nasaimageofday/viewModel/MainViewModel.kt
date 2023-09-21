@@ -1,4 +1,4 @@
-package com.example.nasaimageofday
+package com.example.nasaimageofday.viewModel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
