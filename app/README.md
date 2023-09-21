@@ -1,6 +1,6 @@
 # NASA Image of the Day
 
-![App Screenshot](insert_screenshot_url_here)
+![App Screenshot](./res/drawable/nasa_image_of_day.jpeg)
 
 ## Overview
 
